@@ -48,9 +48,9 @@ export const LoginView: React.FC<LoginViewProps> = ({ onSuccess, onCancel }) => 
         {/* Top Header */}
         <div className="p-6 bg-slate-900 text-white text-center">
           <div className="w-10 h-10 rounded bg-blue-600 flex items-center justify-center text-white font-bold text-base mx-auto mb-2 shadow-sm">
-            AF
+            A
           </div>
-          <h2 className="text-base font-bold">AICTE FLOW Portal Sign-In</h2>
+          <h2 className="text-base font-bold">aakalan Portal Sign-In</h2>
           <p className="text-slate-300 text-xs mt-1">
             Approval Workflow Automation & Compliance Monitoring
           </p>

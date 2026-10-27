@@ -200,7 +200,7 @@ export const DocumentUploadModal: React.FC<DocumentUploadModalProps> = ({
           </div>
 
           <p className="text-[11px] text-slate-500">
-            AICTE FLOW automatically calculates expiry warnings 30 days prior to expiry date and alerts the scrutiny officer.
+            aakalan automatically calculates expiry warnings 30 days prior to expiry date and alerts the scrutiny officer.
           </p>
 
           <div className="flex justify-end gap-3 pt-3 border-t border-slate-200">

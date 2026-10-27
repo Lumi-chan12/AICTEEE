@@ -90,7 +90,7 @@ export const N8nIntegrationView: React.FC = () => {
           recipient_email: deliveryRecipient,
           channel: deliveryChannel,
           status: deliveryStatus,
-          notification_title: 'Automated AICTE FLOW Notification',
+          notification_title: 'Automated aakalan Notification',
           notification_body: deliveryMessage
         })
       });
@@ -125,7 +125,7 @@ export const N8nIntegrationView: React.FC = () => {
               </h2>
             </div>
             <p className="text-slate-600 mt-1 max-w-3xl">
-              AICTE FLOW exposes production-grade REST webhooks and idempotency-guaranteed event queues for orchestration with n8n, SendGrid, Twilio SMS and WhatsApp notifications.
+              aakalan exposes production-grade REST webhooks and idempotency-guaranteed event queues for orchestration with n8n, SendGrid, Twilio SMS and WhatsApp notifications.
             </p>
           </div>
 

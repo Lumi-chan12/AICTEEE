@@ -2,7 +2,7 @@ import { initDatabase, queryOne, queryAll, runSql } from './server/db.js';
 import { generateToken } from './server/auth.js';
 
 async function runAcceptanceTest() {
-  console.log('=== AICTE FLOW ACCEPTANCE SCENARIO AUTOMATED TEST ===');
+  console.log('=== AAKALAN ACCEPTANCE SCENARIO AUTOMATED TEST ===');
   await initDatabase();
 
   // Test 1: Authorized institution user submits an application

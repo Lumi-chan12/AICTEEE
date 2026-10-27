@@ -78,7 +78,7 @@ complianceRouter.post('/documents/upload', authenticate, (req: AuthenticatedRequ
   // Create private physical file placeholder on disk if it doesn't exist
   const safeFileName = `${Date.now()}_${file_name.replace(/[^a-zA-Z0-9._-]/g, '_')}`;
   const diskPath = path.join(UPLOADS_DIR, safeFileName);
-  const samplePdfContent = Buffer.from(`%PDF-1.4\nAICTE FLOW VERIFIED REPOSITORY\nDocument: ${title}\nUploaded: ${new Date().toISOString()}\nActor: ${user.full_name}\n`);
+  const samplePdfContent = Buffer.from(`%PDF-1.4\naakalan VERIFIED REPOSITORY\nDocument: ${title}\nUploaded: ${new Date().toISOString()}\nActor: ${user.full_name}\n`);
   fs.writeFileSync(diskPath, samplePdfContent);
 
   const docId = `doc-${Date.now()}`;
@@ -150,7 +150,7 @@ complianceRouter.get('/documents/:id/download', authenticate, (req: Authenticate
   } else {
     // Generate streaming synthetic PDF placeholder if disk file not created yet
     res.setHeader('Content-Type', 'text/plain');
-    res.send(`AICTE FLOW SECURE DOCUMENT ARCHIVE\n====================================\nDocument ID: ${doc.id}\nTitle: ${doc.title}\nType: ${doc.document_type}\nValidity: ${doc.valid_from} to ${doc.valid_to}\nStatus: ${doc.verification_status}\nUploaded: ${doc.uploaded_at}\nAuthorized Viewer: ${user.full_name} (${user.role})`);
+    res.send(`aakalan SECURE DOCUMENT ARCHIVE\n====================================\nDocument ID: ${doc.id}\nTitle: ${doc.title}\nType: ${doc.document_type}\nValidity: ${doc.valid_from} to ${doc.valid_to}\nStatus: ${doc.verification_status}\nUploaded: ${doc.uploaded_at}\nAuthorized Viewer: ${user.full_name} (${user.role})`);
   }
 });
 

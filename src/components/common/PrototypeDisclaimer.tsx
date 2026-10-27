@@ -8,7 +8,7 @@ export const PrototypeDisclaimer: React.FC = () => {
         <ShieldCheck className="w-3.5 h-3.5 text-blue-400 shrink-0" />
         <span className="font-medium text-slate-200">Prototype Environment:</span>
         <span className="text-slate-400">
-          AICTE FLOW automated approval & compliance system prototype. All records are synthetic demonstrations.
+          aakalan automated approval & compliance system prototype. All records are synthetic demonstrations.
         </span>
       </div>
       <div className="hidden md:flex items-center gap-3 text-slate-400">

@@ -43,7 +43,7 @@ const MainApp: React.FC = () => {
     return (
       <div className="min-h-screen bg-slate-900 flex flex-col items-center justify-center text-white p-4">
         <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-4" />
-        <h2 className="text-base font-bold">AICTE FLOW Verification Engine</h2>
+        <h2 className="text-base font-bold">aakalan Verification Engine</h2>
         <p className="text-xs text-slate-400 mt-1 font-mono">Initializing relational SQLite database & workflow state...</p>
       </div>
     );

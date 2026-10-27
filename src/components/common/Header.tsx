@@ -37,11 +37,11 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Zone 1: Brand title, single line wordmark */}
         <div className="flex items-center gap-3 shrink-0">
           <div className="w-8 h-8 rounded bg-slate-900 flex items-center justify-center text-white font-bold text-sm tracking-wider shadow-sm">
-            AF
+            A
           </div>
           <div className="flex items-baseline gap-2">
             <span className="text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap">
-              AICTE FLOW
+              aakalan
             </span>
             <span className="hidden lg:inline text-xs text-slate-500 font-medium whitespace-nowrap">
               Approval & Compliance Automation

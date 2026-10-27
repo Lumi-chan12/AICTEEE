@@ -126,7 +126,7 @@ integrationsRouter.post('/n8n/record-delivery', verifyIntegrationSecret, (req: R
       notifId,
       user?.id || null,
       user?.role || 'EXTERNAL',
-      notification_title || 'AICTE FLOW Notification',
+      notification_title || 'aakalan Notification',
       notification_body || 'Automated compliance notification dispatched.',
       reference_type || null,
       reference_id || null,

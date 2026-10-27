@@ -50,7 +50,7 @@ async function startServer() {
   app.get('/api/health', (_req, res) => {
     res.json({
       status: 'healthy',
-      service: 'AICTE FLOW Prototype Service',
+      service: 'aakalan Prototype Service',
       timestamp: new Date().toISOString()
     });
   });
@@ -78,7 +78,7 @@ async function startServer() {
   }
 
   server.listen(PORT, '0.0.0.0', () => {
-    console.log(`AICTE FLOW server listening on http://0.0.0.0:${PORT}`);
+    console.log(`aakalan server listening on http://0.0.0.0:${PORT}`);
   });
 }
 

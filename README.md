@@ -1,6 +1,6 @@
-# AICTE FLOW — Approval Workflow Automation & Compliance Monitoring Platform
+# aakalan — Approval Workflow Automation & Compliance Monitoring Platform
 
-**AICTE FLOW** is a full-stack web application designed for automating and monitoring technical education approval-related workflows based on configurable rules inspired by the AICTE problem statement.
+**aakalan** is a full-stack web application designed for automating and monitoring technical education approval-related workflows based on configurable rules inspired by the AICTE problem statement.
 
 > **Disclaimer**: This is a prototype system developed for demonstration purposes. All institution records, officer names, and document attachments are synthetic demonstration data and not connected to official Council servers.
 
@@ -119,7 +119,7 @@ npm run start
    ```bash
    git init
    git add .
-   git commit -m "feat: complete AICTE FLOW approval automation prototype"
+   git commit -m "feat: complete aakalan approval automation prototype"
    ```
 2. Create a new repository on GitHub: `https://github.com/your-username/aicte-flow`
 3. Link and push:

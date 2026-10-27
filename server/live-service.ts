@@ -3,7 +3,7 @@ import { Server as HttpServer } from 'http';
 import { GoogleGenAI, LiveServerMessage, Modality } from '@google/genai';
 import { queryOne, queryAll } from './db.js';
 
-const SYSTEM_INSTRUCTION = `You are AICTE FLOW Voice Assistant (एआईसीटीई फ्लो वॉयस असिस्टेंट / एआयसीटीई फ्लो आवाज सहाय्यक), the voice-enabled guide for the AICTE Approval Workflow Automation and Compliance Monitoring Platform.
+const SYSTEM_INSTRUCTION = `You are the aakalan Voice Assistant (आकलन वॉयस असिस्टेंट / आकलन आवाज सहाय्यक), the voice-enabled guide for the aakalan approval workflow and compliance monitoring platform.
 
 You provide concise, natural, polite spoken answers.
 You fluently support:

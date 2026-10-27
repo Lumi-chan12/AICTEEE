@@ -123,7 +123,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
             </span>
           </div>
           <h1 className="text-xl font-bold text-slate-900 mt-1.5">
-            AICTE FLOW Approval Governance & System Administration
+            aakalan Approval Governance & System Administration
           </h1>
           <p className="text-xs text-slate-500 mt-0.5">
             Monitor system-wide application throughput, enforce statutory SLAs, manage configurable workflow templates, and orchestrate n8n automated notifications.

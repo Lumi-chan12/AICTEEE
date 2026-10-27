@@ -4,12 +4,12 @@ import { queryOne, queryAll } from '../db.js';
 
 export const voiceRouter = Router();
 
-const SYSTEM_GUIDANCE = `You are AICTE FLOW Voice Assistant (एआईसीटीई फ्लो वॉयस असिस्टेंट / एआयसीटीई फ्लो आवाज सहाय्यक).
+const SYSTEM_GUIDANCE = `You are the aakalan Voice Assistant (आकलन वॉयस असिस्टेंट / आकलन आवाज सहाय्यक).
 Answer concisely (2-4 sentences maximum) in spoken, natural, polite style.
 Support English, Hindi (हिंदी), and Marathi (मराठी). Match the language of the prompt or requested language.
 
 Help the user understand:
-1. Navigation of AICTE Flow (Institution, Scrutiny, Regional/EVC, and Administrator desks).
+1. Navigation of aakalan (Institution, Scrutiny, Regional/EVC, and Administrator desks).
 2. How to submit applications (EoA, Increase Intake, New Course).
 3. Current workflow stages (Scrutiny, EVC, SAC/SHC, Final Approval).
 4. Statutory documents (Land Title, Building Plan, Fire Safety NOC, AICTE Affidavit) and validity.
@@ -105,7 +105,7 @@ voiceRouter.post('/query', async (req: Request, res: Response): Promise<void> =>
         } else if (language === 'Marathi') {
           replyText = `एआयसीटीई फ्लो मध्ये आपले स्वागत आहे. आपण संस्था, छाननी, प्रादेशिक ईव्हीसी आणि ॲडमिन डॅशबोर्ड वापरू शकता. नवीन अर्ज सादर करण्यासाठी 'New Application' वर क्लिक करा.`;
         } else {
-          replyText = `Welcome to AICTE FLOW. The platform routes institutional applications through configured scrutiny, EVC visit scheduling, and appellate SAC/SHC stages. You can track SLA deadlines and upload documents from your role dashboard.`;
+          replyText = `Welcome to aakalan. The platform routes institutional applications through configured scrutiny, EVC visit scheduling, and appellate SAC/SHC stages. You can track SLA deadlines and upload documents from your role dashboard.`;
         }
       }
     }
@@ -117,7 +117,7 @@ voiceRouter.post('/query', async (req: Request, res: Response): Promise<void> =>
   } catch (err: any) {
     res.status(500).json({
       error: 'Voice query error: ' + (err.message || 'Unknown error'),
-      replyText: 'AICTE FLOW Voice Assistant is active. Please ask your question regarding applications, workflow stages, or statutory documents.'
+      replyText: 'aakalan Voice Assistant is active. Please ask your question regarding applications, workflow stages, or statutory documents.'
     });
   }
 });

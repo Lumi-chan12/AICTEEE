@@ -46,7 +46,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
     {
       id: 'welcome',
       sender: 'assistant',
-      text: 'Namaste! I am your AICTE FLOW Voice Assistant powered by Gemini 3.8 Live. Ask me in English, Hindi (हिंदी), or Marathi (मराठी) about navigating dashboards, application stages, document expiries, deficiency return reasons, and task deadlines.',
+      text: 'Namaste! I am your aakalan Voice Assistant powered by Gemini 3.8 Live. Ask me in English, Hindi (हिंदी), or Marathi (मराठी) about navigating dashboards, application stages, document expiries, deficiency return reasons, and task deadlines.',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -444,7 +444,7 @@ export const VoiceAssistantModal: React.FC<VoiceAssistantModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h3 className="font-bold text-sm text-white">AICTE FLOW Voice Assistant</h3>
+                <h3 className="font-bold text-sm text-white">aakalan Voice Assistant</h3>
                 <span className="font-mono text-[10px] bg-blue-500/20 text-blue-300 px-2 py-0.5 rounded-full border border-blue-400/30">
                   gemini-3.8-live
                 </span>

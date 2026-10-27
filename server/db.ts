@@ -304,7 +304,7 @@ function seedInitialData(): void {
     return; // Already seeded
   }
 
-  console.log('Seeding initial synthetic AICTE FLOW data...');
+  console.log('Seeding initial synthetic aakalan data...');
   const salt = bcrypt.genSaltSync(10);
   const defaultPasswordHash = bcrypt.hashSync('aicte@demo123', salt);
   const now = new Date().toISOString();
